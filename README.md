@@ -1,5 +1,31 @@
-## B+ Tree Indexing
+# B+ Tree Database Indexing
 
-A university database project focused on improving data retrieval performance using **B+ tree indexes**.
+A database project focused on improving data retrieval performance using **B+ tree indexes**.
 
-The project works with a generated file containing hundreds of thousands of person records and implements both **clustered and unclustered B+ tree indexes** for attributes such as surname and salary. It explores bulk loading, interval queries, disk-page access, record offsets, and the impact of indexing strategies on query performance and I/O operations.
+The project explores how database indexes can reduce the amount of disk access required when searching through large datasets.
+
+## Features
+
+- B+ tree based indexing
+- Clustered and unclustered indexes
+- Indexing records by surname
+- Indexing records by salary
+- Record offsets into data files
+- Bulk loading of index data
+- Range and interval queries
+- Disk-based index storage
+- Binary serialization using ByteBuffer
+- Analysis of disk I/O operations
+
+## Technologies
+
+- Java
+- B+ Trees
+- Database Indexing
+- RandomAccessFile
+- ByteBuffer
+- File I/O
+
+## University Project
+
+Developed as part of a university **Database Systems** course.
